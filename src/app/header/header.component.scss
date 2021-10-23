@@ -8,9 +8,14 @@ header{
   text-align: center;
   padding:1rem;
   border-radius: 1rem;
+  transition: transform 0.3s ease-in;
+  transform-origin: center;
 
 }
-
+header:hover {
+  -webkit-transform: scale3d(1.05, 1.05, 0.5);
+  transform: scale3d(1.05,1.05,0.5);
+}
 header .user{
   padding-top: 2rem;
 }
@@ -21,7 +26,7 @@ header .user img{
   width:15rem;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 0 0 1rem rgba(255,255,255,.2);
+  box-shadow: 0 0 0 1px rgba(255,255,255,.5);
 }
 
 header .user .name{
@@ -49,7 +54,7 @@ header .navbar ul li a{
   display: block;
   padding:1rem;
   font-size: 2rem;
-  color:#fff;
+  color: #000000;
   background:rgba(255,255,255,.2);
   box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
   border-radius: 1rem;

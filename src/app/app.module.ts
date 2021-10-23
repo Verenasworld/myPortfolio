@@ -11,6 +11,8 @@ import { ServiceComponent } from './container/service/service.component';
 import { ContactComponent } from './container/contact/contact.component';
 import { EducationComponent } from './container/education/education.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,8 @@ import { EducationComponent } from './container/education/education.component';
     AboutComponent,
     ServiceComponent,
     ContactComponent,
-    EducationComponent
+    EducationComponent,
+
   ],
   imports: [
     BrowserModule,
