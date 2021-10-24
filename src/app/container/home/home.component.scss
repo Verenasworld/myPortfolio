@@ -6,13 +6,13 @@ section{
 .btn{
   font-size: 2rem;
   padding:.7rem 4rem;
-  background:rgba(255,255,255,.2);
+  background:rgba(255,255,255,.1);
   color: #000000;
-  border-radius: 1rem;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
   margin-top: 1rem;
   cursor: pointer;
   transition:.2s linear;
+  border: white 1px solid;
+  border-radius: 5px;
 }
 
 .btn:hover{
@@ -54,9 +54,9 @@ section{
   left:50%; bottom:5rem;
   transform: translateX(-50%);
   display: flex;
-  padding:1rem;
+  padding:2rem;
   border-radius: 1rem;
-  background: rgba(255,255,255,.1);
+  //background: rgba(255,255,255,.1);
   box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
   transition: .2s linear;
 }
@@ -72,6 +72,34 @@ section{
 }
 
 .home .share a:hover{
-  background:rgba(255,255,255,.5);
+  //background:rgba(255,255,255,.5);
   color:#555;
+}
+.share li {
+  list-style: none;
+
+  //backdrop-filter: blur(10px);
+  transition: 0.5s;
+  transition-delay: calc(0.2s * var(--i));
+  color: #111;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 5px;
+}
+.share li::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 20px;
+  color: rgba(255, 255, 255, 0.1);
+
+  font-size: 7vw;
+  transform: translate(-50%, -100%);
+  pointer-events: none;
+  font-weight: 800;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.share li:hover::before {
+  opacity: 0.8;
 }
