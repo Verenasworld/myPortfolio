@@ -16,7 +16,7 @@ export class AppComponent implements OnInit{
     this.metaTagService.addTags([
       {name:'keywords', content:'this is working very well'},
       {name:'author', content:'VS'},
-      {name:'keywords', content:'this is working very well'},
+      {name:'tags', content:'this is working very well'},
 
     ])
   }
