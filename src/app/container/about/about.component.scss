@@ -31,10 +31,13 @@ section{
   box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
   background: rgba(255,255,255,.2);
   border-radius: 1rem;
+  transition: 1s all ease-in-out;
 
 }
 
-
+.about .skills .progress:hover{
+  transform: scale(1.08);
+}
 
 
 .about .skills .progress h3{
@@ -49,9 +52,11 @@ section{
   width: 100%;
   height:.3rem;
   margin:1rem 0;
-  background:#555;
+  background: #0e64a2;
 
 }
+
+
 
 
 .about .skills .progress .bar span{

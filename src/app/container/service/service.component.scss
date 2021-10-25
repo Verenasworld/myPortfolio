@@ -1,0 +1,22 @@
+._container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+._container .boxen{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  color: #000;
+  background: #474a5c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  opacity: 0.7;
+
+}
+
