@@ -1,6 +1,7 @@
 .container{
+  min-width: 60vw;
   height: 80vh;
-  width: 80vh;
+  min-height: 30vw;
   flex: 1;
   flex-shrink: 1;
   background:rgba(255,255,255,.1);
@@ -9,6 +10,9 @@
   border-radius: 1rem;
   overflow: hidden;
   margin: 8px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 
