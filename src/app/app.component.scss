@@ -3,11 +3,11 @@
   overflow: hidden;
   min-height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background: -webkit-linear-gradient(-45deg,#35778c, #474a5c, #0e64a2);
   background:linear-gradient(-45deg, #35778c, #474a5c, #0e64a2);
-  padding:5.5rem;
   color: black;
   background-size: 400% 400%;
   background-attachment: fixed !important;

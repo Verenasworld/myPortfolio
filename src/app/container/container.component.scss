@@ -1,16 +1,16 @@
 .container{
-  height:60rem;
-  width:100rem;
+  height: 80vh;
+  width: 80vh;
+  flex: 1;
+  flex-shrink: 1;
   background:rgba(255,255,255,.1);
   box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
   backdrop-filter: blur(.2rem);
   border-radius: 1rem;
   overflow: hidden;
+  margin: 8px;
 }
-section{
-  padding:1rem 7%;
-  min-height: 100%;
-}
+
 
 .btn{
   font-size: 2rem;
